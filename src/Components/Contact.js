@@ -12,25 +12,20 @@ class Contact extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
+    const email = this.props.data.email;
 
     return (
       <section id="contact">
-        <Fade bottom duration={1000}>
+        {/* <Fade bottom duration={1000}>
           <div className="row section-head">
-            <div className="two columns header-col">
-              <h1>
-                <span>Get In Touch.</span>
-              </h1>
-            </div>
-
-            <div className="ten columns">
+            <div className="twelve columns">
               <p className="lead">{message}</p>
             </div>
           </div>
-        </Fade>
+        </Fade> */}
 
         <div className="row">
-          <Slide left duration={1000}>
+          {/* <Slide left duration={1000}>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -101,23 +96,25 @@ class Contact extends Component {
                 <br />
               </div>
             </div>
-          </Slide>
+          </Slide> */}
 
-          <Slide right duration={1000}>
-            <aside className="four columns footer-widgets">
+          <Slide bottom duration={1000}>
+            <aside className="twelve columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
-                <p className="address">
+                <h4 className="center">Address and Phone</h4>
+                <p className="center">
                   {name}
                   <br />
-                  {street} <br />
-                  {city}, {state} {zip}
+                  {city} <br />
+                  {state}, {zip}
                   <br />
                   <span>{phone}</span>
+                  <br/>
+                  {email}
                 </p>
               </div>
 
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -144,7 +141,7 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </Slide>
         </div>

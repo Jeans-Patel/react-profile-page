@@ -1,184 +1,80 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "isHomePage":true,
+    "name":"Jeans Patel",
+    "description":"I am a forth year Computer Science student at the University of Guelph",
+    "aboutLine":"About Me",
+    "image":"sunglasses.jpg",
+    "bio":"I'm working towards my Bachlors in Computing with a Mathamatics minor at the University of Guelph. I enjoy learning new languages and applying the skills I learned at university in the real world. I love working in teams and meeting new people. My hobbies include online gaming, table tennis, computers and I've recently gotten intrested in VR technology.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "email": "jeans@uoguelph.ca",
+    "phone": "647-654-2505",
+    "github":"https://github.com/jeans-patel/",
+    "project":"https://www.linkedin.com/in/jeans-patel/",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Milton",
+      "state":"Ontario",
+      "zip": "L9T 8P1"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1xbHd_Oukig_VB1Lifij_NkRqFsWnMHly/view?usp=sharing",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/jeans-patel/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/jeans-patel/",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"These are some skills I've learned throughout my projects and work experience.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"University of Guelph",
+        "degree":"Bachlors in Computing (Co-op)",
+        "graduated":"September 2018 - Present",
+        "description":"Culminative GPA: 85%. I'm working towards a Mathematics minor along with my bachlors in computing. I've been on the honor roll every year and I'm a part of the University League of Legends team."
       }
     ],
-    "work":[
+    "project":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "name":"Image Processing",
+        "subject":"Image Processing and Vision",
+        "years":"March 2021",
+        "description":"I worked with a partner to implement and compare image processing algorithms using reserch articles. I used Python to implement, test, and compare various image processing algorithms. After performing the tests, I presented the algorithms, methods of testing, and results in an organized report. This project improved my analyzing and presentation skills and I learned more about Python."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Python",
-        "level":"60%"
+        "name":"Inventum - Media Browsing App",
+        "subject":"Software Engineering",
+        "years":"April 2021",
+        "description":"I worked in a group of 4 other classmates to add functionality to an existing open-source Andriod application using Java. We following the agile-scrum methodology to develop the application and we used GitHub to manage the project. Sprints were 2 weeks long and after each sprint we presented out progress to the class. After the final sprint we presented our final product to the professor and class through a formal presentation. This project improved my collaboration, organization and presentation skills, this was also my first time working with Andriod development."
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"SVG Parser",
+        "subject":"Software System Development and Integration",
+        "years":"March 2020",
+        "description":"This was an independant project for my Software System Development and Integration course. I built and used a C library to parse SVG images. I used JavaScript, HTML, and CSS to create a webpage to display information about the parsed SVG images. All the data about the SVG images were stored in a MySQL database. This was my first time working with webpages and librarys so I learned how the front-end and back-end work together to display information. I also learned how to use JQuery and AJAX to create webpages."
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"Rouge-like 3D Game",
+        "subject":"Game Programming",
+        "years":"April 2021",
+        "description":"This was an independant project for my Game Programming course. I created a 3D rouge-like gaming using a game engine in C. First, I generated random maze-like rooms, corridors, and levels. These rooms were randomized every time the game was restarted so you'd always enter a new layout. Then, I added enemies, obstacles so the player has elements to interact with. Finally, I added 'fog-of-war' to optimize and refine the game. I have a passion for gaming and this project taught me the fundamentals of game design."
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
+        "title":"CIBC - Java Developer",
         "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "image":"cibc logo.jpg",
+        "src":"/CoopTerm1"
       }
     ]
   }

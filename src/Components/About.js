@@ -16,6 +16,32 @@ class About extends Component {
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
 
+    const address = this.props.data.isHomePage? <div className="row">
+    <div className="columns contact-details">
+      <h2>Contact Details</h2>
+      <p className="address">
+        <span>{name}</span>
+        <br />
+        <span>
+          {city}
+          <br />
+          {state}, {zip}
+        </span>
+        <br />
+        <span>{phone}</span>
+        <br />
+        <span>{email}</span>
+      </p>
+    </div>
+    <div className="columns download">
+      <p>
+        <a href={resumeDownload} className="button">
+          <i className="fa fa-download"></i>Download Resume
+        </a>
+      </p>
+    </div>
+  </div> : <div></div>
+
     return (
       <section id="about">
         <Fade duration={1000}>
@@ -24,38 +50,14 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Nordic Giant Profile Pic"
+                alt=""
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>{this.props.data.aboutLine}</h2>
 
               <p>{bio}</p>
-              <div className="row">
-                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                    <span>{name}</span>
-                    <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
-                  </p>
-                </div>
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
-                </div>
-              </div>
+              {address}
             </div>
           </div>
         </Fade>

@@ -1,7 +1,7 @@
 {
   "name": "reactniceresume",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://jeans-patel.github.io/react-profile-page/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
